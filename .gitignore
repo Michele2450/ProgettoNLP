@@ -1,0 +1,13 @@
+# Modelli e Checkpoint
+roberta_*/
+*.safetensors
+*.bin
+
+# Cache e file di sistema
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Dataset (Opzionale: rimuovi il # se vuoi escludere i CSV per non appesantire la repo)
+*.csv
